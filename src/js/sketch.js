@@ -1,3 +1,5 @@
+// no comments 4 u; pretty self-hExplanatory
+
 let dino;
 let cacti = [];
 
@@ -11,7 +13,7 @@ function setup() {
 function keyPressed() {
 	if (key == " ") {
 		dino.initialiseJump();
-	}
+	} // Jump when key space is pressed
 }
 function draw() {
 	// if (random(1) < 0.007) {

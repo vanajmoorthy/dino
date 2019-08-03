@@ -1,3 +1,5 @@
+// yeah I got bored of commenting
+
 class Cactus {
 	constructor() {
 		this.r = 70;
