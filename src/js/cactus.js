@@ -3,7 +3,7 @@
 class Cactus {
 	constructor() {
 		this.r = 70;
-		this.x = 1920;
+		this.x = width;
 		this.y = height - this.r;
 		this.velocity = -1
 		this.lastTimestep = null;
@@ -23,7 +23,6 @@ class Cactus {
 	}
 
 	show() {
-		noStroke();
 		// clear(); 
 		fill(200, 12, 255);
         rect(this.x, this.y, this.r - 40, this.r);

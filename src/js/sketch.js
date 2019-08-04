@@ -1,12 +1,10 @@
 // no comments 4 u; pretty self-hExplanatory
-
 let dino;
 let cacti = [];
 
 function setup() {
 	createCanvas(800, 450);
     background(0);
-    cactus = new Cactus();
 	dino = new Dino();
 }
 
@@ -33,9 +31,16 @@ function draw() {
 	// 	// console.log("kgjkdfgd");
 	// });
 
+	if (random(1) < 0.07) {
+		cacti.push(new Cactus());
+		console.log("sup");
+	}
+
+	for (let t of cacti) {
+		t.move();
+		t.show();
+	}
+
 	dino.show();
     dino.move();
-    
-    cactus.show();
-    cactus.move();
 }
