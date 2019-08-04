@@ -5,7 +5,7 @@ class Cactus {
 		this.r = 70;
 		this.x = 1920;
 		this.y = height - this.r;
-		this.velocity = -1;
+		this.velocity = -1
 		this.lastTimestep = null;
 	}
 
