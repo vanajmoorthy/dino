@@ -36,9 +36,9 @@ function draw() {
 		console.log("sup");
 	}
 
-	for (let t of cacti) {
-		t.move();
-		t.show();
+	for (let i = 0; i < cacti.length; i++) {
+		cacti[i].move();
+		cacti[i].show();
 	}
 
 	dino.show();
