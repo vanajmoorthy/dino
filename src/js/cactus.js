@@ -2,9 +2,9 @@
 
 class Cactus {
 	constructor() {
-		this.r = 70;
+		this.size = 70;
 		this.x = width;
-		this.y = height - this.r;
+		this.y = height - this.size;
 		this.velocity = -1
 		this.lastTimestep = null;
 	}
@@ -25,6 +25,6 @@ class Cactus {
 	show() {
 		// clear(); 
 		fill(200, 12, 255);
-        rect(this.x, this.y, this.r - 40, this.r);
+        rect(this.x, this.y, this.size - 40, this.size);
 	}
 }
